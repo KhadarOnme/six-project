@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    background-image: url(pexels-nubikini-386009\ \(2\).jpg);
+    background-size: cover;
+    
+     height: 100vh; 
+     position: relative;
+
+}
+
+.header{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+
+.header h3{
+    color: orange;
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 1.3em;
+    padding-top: 20px;
+}
+
+#home{
+    border: 3px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#register{
+    background-color: orange;
+    padding: 8px 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-size: 1em;
+    color: white;
+    border: none;
+    
+}
+
+.qoraal{
+    padding-top: 5%;
+    padding-left: 12%;
+    padding-right: 59%;
+}
+
+.qoraal h1{
+    font-size: 3em;
+}
+
+.qoraal p{
+    color: grey;
+    padding-top: 20px;
+}
+
+/* .emoji{
+    background-color: grey;
+    display: flex;
+    gap: 20px;
+    height: 60px;
+    width: 20%;
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    padding-left: 20px;
+    
+    
+
+} */
+
+.text-icon{
+    background-color: grey;
+    display: flex;
+    gap: 10px;
+    padding: 6px 30px;
+    position: absolute;
+    bottom: -2px;
+    left: 15%;
+    height: 50px;
+    margin: 30px;
+
+
+}   
+
+/* .text-icon{
+    position: absolute;
+    left: 20%;
+    bottom: -27px;
+
+} */
+
+
+
+/* #fligth{
+    width: 20%;
+}
+  */
+
+/* .emoji{
+    background-color: aqua;
+    display: flex;
+    gap: 10px;
+    width: 20%;
+} 
+    
+*/
+
+.emoji{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: -10%;
+    left: 15%;
+    background-color: rgb(197, 188, 188);
+    width: 70%;
+    height: 80px;
+     margin: 30px; 
+    /* padding: 40px; */
+    padding-left: 30px;
+    color: black;
+
+}
+
+
+/* page two */
+
+.pageTwo{
+    background-color: whitesmoke;
+    display: flex;
+    gap: 50px;
+    /* justify-content: center; */
+    padding-top: 90px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.left img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.rigth{
+    padding-top: 30px;
+
+}
+
+.rigth h1{
+    font-size: 3em;
+}
+
+.rigth p{
+    padding-top: 20px;
+    color: grey;
+}
+
+#explore{
+
+    background-color: orange;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    margin-top: 46px;
+    padding: 10px 18px;
+}
+
+/* page three */
+
+.pageThree{
+    background-color: whitesmoke;
+    padding-top: 60px;
+    height: 100vh;
+
+}
+
+.popular{
+    text-align: center;
+}
+
+.popular h1{
+    font-size: 2.4em;
+}
+
+.popular p{
+    color: grey;
+    padding-left: 28%;
+    padding-right: 28%;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: 290px 290px 290px;
+    grid-template-rows: 300px 280px 280px;
+    gap: 10px;
+    justify-content: space-around;
+    padding-top: 16px;
+    padding-right: 5%;
+    
+
+}
+
+/* .box{
+    background-color
+} */
+
+.box img{
+
+    width: 350px;
+    height: 330px;
+    
+
+}
+
+.box h4{
+    font-size: 1.1em;
+    padding-top: 10px;
+}
+
+span{
+    color: orange;
+    padding-left: 75%;
+}
+
+.box p{
+    color: grey;
+    padding-top: 10px;
+}
+
+#start{
+    display: flex;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 15px;
+    padding-top: 5px;
+    margin-left: 40%;
+    margin-bottom: 70px;
+}
+
+/* page four */
+
+.pageFour{
+
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    height: 100vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 40px;
+    justify-content: space-around;
+}
+
+.last{
+    background-color: antiquewhite;
+    width: 550px;
+    /* padding-left: 10%; */
+    height: 500px;
+    border-radius: 30px;
+}
+
+
+.last h1{
+    font-size: 2em;
+    /* padding-left: 5%; */
+    padding-left: 20px;
+    padding-left: 5%;
+    padding-top: 20px;
+
+}
+
+.last p{
+    padding-top: 40px;
+    padding-left: 5%;
+    color: grey;
+}
+
+
+
+
+.second img{
+    width: 450px;
+    height: 500px;
+    border-radius: 30px;
+
+}
+.second{
+    width: 700px;
+}
+
+#read{
+    background-color: orangered;
+    border-radius: 10px;
+    border: none;
+    padding: 7px 17px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
